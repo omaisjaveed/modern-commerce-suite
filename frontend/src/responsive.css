@@ -1,0 +1,291 @@
+/* Responsive */
+@media (max-width: 992px) {
+  .category-nav-list {
+    justify-content: flex-start;
+    overflow-x: auto;
+    scrollbar-width: thin;
+  }
+
+  .category-nav-link {
+    min-height: 44px;
+    font-size: 12px;
+    padding: 0 10px;
+  }
+
+  .mega-menu-inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cta-boxes-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .custom-jewelery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .custom-jewelery-heading-wrapper p {
+    width: 80%;
+  }
+
+  .reviews-heading-wrapper h2 {
+    font-size: 42px;
+  }
+
+  .reviews-slider-wrapper {
+    margin-top: -40px;
+  }
+
+  .faq-heading-wrapper h2 {
+    font-size: 42px;
+  }
+
+  .faqs-question-wrapper {
+    margin-bottom: 40px;
+    padding: 30px 20px;
+  }
+
+  .brands-boxes-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .brands-heading-wrapper h2 {
+    font-size: 42px;
+  }
+
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .blog-heading-wrapper h2 {
+    font-size: 42px;
+  }
+
+  .footer-items-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-items-wrapper>div::after {
+    display: none;
+  }
+
+  .footer-bottom {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .copyright-sec {
+    text-align: center;
+  }
+
+  .product-main {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .all-collections-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .all-collection-img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .category-nav-shell {
+    margin-top: 6px;
+  }
+
+  .mega-menu-inner {
+    gap: 18px;
+    padding: 22px;
+  }
+
+  .mega-menu-column h4 {
+    font-size: 19px;
+  }
+
+  .featured-products-sec {
+    padding: 50px 0;
+  }
+
+  .featured-header h2 {
+    font-size: 32px;
+  }
+
+  .featured-swiper .swiper-button-next,
+  .featured-swiper .swiper-button-prev {
+    opacity: 1;
+    visibility: visible;
+    width: 36px;
+    height: 36px;
+  }
+
+  .reviews-heading-wrapper h2 {
+    font-size: 32px;
+  }
+
+  .reviews-slider-wrapper {
+    margin-top: -20px;
+  }
+
+  .review-box {
+    padding: 24px;
+  }
+
+  .contact-form .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .contact-form-wrapper {
+    margin-top: 30px;
+    padding: 25px;
+  }
+
+  .contact-details-wrapper {
+    padding: 20px;
+  }
+
+  .form-heading h2 {
+    font-size: 28px;
+  }
+
+  .all-collections-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .all-collections-heading h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .banner-content-wrapper h1 .word {
+    white-space: normal;
+  }
+
+  .banner-content-wrapper h1 {
+    word-break: keep-all;
+  }
+
+  .product-gallery {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .vertical-thumbs-swiper {
+    width: 100%;
+    height: 100px;
+  }
+
+  .thumbs-swiper .swiper-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .thumb {
+    width: 80px;
+  }
+
+  .main-image {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1/1;
+  }
+}
+
+@media (max-width: 576px) {
+  .mega-menu {
+    display: none;
+  }
+
+  .category-nav-bar {
+    border-radius: 0;
+  }
+
+  .cta-boxes-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-box {
+    padding: 20px;
+  }
+
+  .cta-content h3 {
+    font-size: 20px;
+  }
+
+  .cta-content p {
+    font-size: 16px;
+  }
+
+  .custom-jewelery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .custom-jewelery-heading-wrapper h2 {
+    font-size: 36px;
+  }
+
+  .custom-jewelery-heading-wrapper p {
+    width: 100%;
+  }
+
+  .faq-heading-wrapper h2 {
+    font-size: 32px;
+  }
+
+  .faq-question h4 {
+    font-size: 16px;
+  }
+
+  .brands-boxes-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .brands-heading-wrapper h2 {
+    font-size: 32px;
+  }
+
+  .brands-box-img {
+    height: 250px;
+  }
+
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-heading-wrapper h2 {
+    font-size: 32px;
+  }
+
+  .blog-card-content h3 {
+    font-size: 18px;
+  }
+
+  .signup-wrapper {
+    padding: 25px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .offcanvas {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .all-collections-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .all-collection-img {
+    height: 280px;
+  }
+}
