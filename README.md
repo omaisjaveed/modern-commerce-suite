@@ -1,21 +1,31 @@
 # Modern Commerce Suite
 
-A modern, scalable, and responsive eCommerce application designed to provide a seamless online shopping experience. This project emphasizes clean architecture, high performance, and a user-friendly interface for both customers and administrators.
+A modern full-stack eCommerce application built with **React.js**, **Node.js**, **Express.js**, and **SQL**. The project delivers a complete online shopping experience with a responsive frontend, a secure backend API, and an SQL-powered database.
+
+
+## 📂 Repository Structure
+
+```text
+modern-commerce-suite/
+├── frontend/     # React Frontend
+├── backend/      # Node.js & Express Backend
+└── README.md
+```
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-* Modern and responsive UI
-* Product catalog with categories
-* Product detail pages
-* Shopping cart functionality
-* User authentication and authorization
-* Secure checkout process
+* Responsive and modern UI
+* Product listing and categories
+* Product details
+* Shopping cart
+* User authentication
 * Order management
 * Admin dashboard
-* Optimized performance
-* Clean and maintainable codebase
+* RESTful API
+* SQL database integration
+* Scalable project architecture
 
 ---
 
@@ -39,62 +49,85 @@ A modern, scalable, and responsive eCommerce application designed to provide a s
 
 ---
 
-## 🚀 Installation
+# ⚙️ Installation
 
-### Clone the Repository
+## 1. Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/modern-commerce-suite.git
+git clone https://github.com/omaisjaveed/modern-commerce-suite.git
 cd modern-commerce-suite
 ```
 
-### Install Dependencies
+---
+
+## 2. Frontend Setup
 
 ```bash
+cd frontend
 npm install
+npm run dev
 ```
 
-### Start the Development Server
+Frontend will start on your local development server.
+
+---
+
+## 3. Backend Setup
+
+Open another terminal.
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+or
 
 ```bash
 npm run dev
 ```
 
-### Build for Production
+depending on your project configuration.
 
-```bash
-npm run build
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file inside the **backend** directory and add the required environment variables.
+
+Example:
+
+```env
+PORT=5000
+
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=your_database
+DB_USER=your_username
+DB_PASSWORD=your_password
+
+JWT_SECRET=your_secret_key
 ```
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```text
-modern-commerce-suite/
-│
+frontend/
 ├── src/
 ├── public/
-├── components/
-├── pages/
-├── assets/
-├── services/
-├── hooks/
-├── utils/
-├── package.json
-└── README.md
+└── package.json
+
+backend/
+├── controllers/
+├── routes/
+├── models/
+├── middleware/
+├── config/
+└── package.json
 ```
-
----
-
-## 📌 Key Highlights
-
-* Responsive design for all screen sizes
-* Scalable project architecture
-* Reusable components
-* Secure authentication system
-* SQL database integration
-* Easy to maintain and extend
 
 ---
 
@@ -102,16 +135,14 @@ modern-commerce-suite/
 
 **Omais Javeed**
 
-📧 Email: **[omaisjaveed7@gmail.com](mailto:omaisjaveed7@gmail.com)**
+📧 Email: [omaisjaveed7@gmail.com](mailto:omaisjaveed7@gmail.com)
 
-Feel free to reach out for collaboration, freelance opportunities, or project-related inquiries.
+GitHub: https://github.com/omaisjaveed
 
 ---
 
 ## 📄 License
 
-This repository is intended for portfolio and educational purposes. Please contact the developer before redistributing or reusing the source code.
+This project is available for portfolio and educational purposes.
 
----
-
-### Made with ❤️ by Omais Javeed
+© 2026 Omais Javeed. All rights reserved.
